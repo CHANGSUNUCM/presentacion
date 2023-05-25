@@ -1,0 +1,123 @@
+    <html>
+
+     <head>
+      <link rel="stylesheet" href="css/reveal.css">
+      <link rel="stylesheet" href="css/theme/white.css">
+      <!-- Code syntax highlighting -->
+      <link rel="stylesheet" href="lib/css/zenburn.css">
+     </head>
+
+     <body>
+
+     <div class="reveal">
+      <div class="slides">
+
+<!--PORTADA -->
+ <section>
+ <h1><font color="blue">Programa del curso</font></h1>
+ <hr>
+ <h3><font color="pink">Sketch Engine</font></h3>
+ <hr>
+ <h4><font color="purple">Presentaci&oacute;n de Introducci&oacute;n a la estructura del curso</font></h4>
+</section>
+<!--FIN PORTADA -->
+
+<!--INDICE -->
+<section id="indice">
+<h2>Indice de contenidos</h2>
+
+<ol>
+<li><a href="#/cronograma">Cronograma de enseñanza</a></li>
+<li><a href="#/video">Video tutorial</a></li>
+</ol>
+
+</section>
+<!--FIN INDICE -->
+
+
+<!--CRONOGRAMA -->
+<section data-transition="fade-in slide-out">
+  <section id="cronograma">
+   <h2>Cronograma de enseñanza</h2>
+  </section>
+
+<section data-background-image="https://www.sketchengine.eu/wp-content/uploads/corpus-info-page-icon.png" data-background-size="320px">
+ <section data-markdown>
+  <script type="text/template"> 
+   ## Curso Sketch Engine
+
+   * Objetivo 1: Familiarizarse con las funcionalidades básicas de **Sketch Engine**
+   * Contenidos:
+    * Introducción a Sketch Engine y su importancia en el análisis lingüístico
+    * Creación y gestión de corpus en Sketch Engine
+    * Búsqueda de palabras y frases en un corpus
+
+  </script>
+ </section>
+</section>
+
+ <section data-markdown>
+  <script type="text/template"> 
+   ## Curso Sketch Engine
+
+   * Objetivo 2: Explorar las herramientas avanzadas de Sketch Engine para el análisis lingüístico
+   * Contenidos:
+    * Generación de listas de palabras y diccionarios bilingües
+    * Análisis de variantes léxicas y traducción automática
+
+  </script>
+ </section>
+
+
+ <section data-markdown>
+   <script type="text/template">
+    ## Cronograma
+
+    * Sección 1: Introducción a Sketch Engine
+     * Unidad 1: Presentación general
+     * Unidad 2: El uso de Sketch Engine en el análisis lingüístico
+    * Sección 2: Aplicaciones prácticas de Sketch Engine
+     * Unidad 1: Preguntas del ejercicio
+     * Unidad 2: Aplicaciones informáticas
+    * Sección 3: Conclusión
+
+    </script>
+  </section>
+     
+</section>
+<!--FIN CRONOGRAMA -->
+
+<!--VIDEO-->
+ <section data-background-video="https://www.sketchengine.eu/wp-content/uploads/Sketchengine.mp4" data-background-video-loop>
+  <h2 style="color: white;">Video</h2>
+ </section>
+<!--FIN VIDEO-->
+
+
+
+
+      </div>
+     </div>
+
+     <script src="lib/js/head.min.js"></script>
+     <script src="js/reveal.js"></script>
+
+     <script>
+        Reveal.initialize({
+                    controls: true,
+                    progress: true,
+                    history: true,
+                    keyboard: true,
+     
+                    dependencies: [
+            		// Interpret Markdown in <section> elements
+            		{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            		{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    ]
+                });
+     </script>
+
+     </body>
+
+    </html>
