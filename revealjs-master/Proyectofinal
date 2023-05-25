@@ -1,0 +1,274 @@
+    <html>
+
+     <head>
+      <link rel="stylesheet" href="css/reveal.css">
+      <link rel="stylesheet" href="css/theme/white.css">
+      <!-- Code syntax highlighting -->
+      <link rel="stylesheet" href="lib/css/zenburn.css">
+     </head>
+
+     <body>
+
+     <div class="reveal">
+      <div class="slides">
+
+<!--PORTADA -->
+ <section>
+ <h1><font color="red">Introducci&oacute;n a Sketch Engine</font></h1>
+ <hr>
+ <h3><font color="pink">Chang Sun</font></h3>
+ <hr>
+ <h4><font color="green">Producci&oacute;n de Material Educativos Digitales</font></h4>
+</section>
+<!--FIN PORTADA -->
+
+<!--INDICE -->
+<section id="indice">
+<h2>Indice de contenidos</h2>
+
+<ol>
+<li><a href="#/introduccion">Introducci&oacute;n</a></li>
+<li><a href="#/contenidos">Contenidos</a></li>
+<li><a href="#/objetivos">Objetivos</a></li>
+<li><a href="#/metodologia">Metodolog&iacute;a</a></li>
+<li><a href="#/practica">Pr&aacute;ctica</a></li>
+<li><a href="#/conclusion">Conclusi&oacute;n</a></li>
+<li><a href="#/dudas_o_preguntas">Dudas o preguntas</a></li>
+</ol>
+
+</section>
+<!--FIN INDICE -->
+
+
+<!--INTRODUCCIÓN -->
+<section data-transition="fade-in slide-out">
+ <section id="introduccion">
+  <h2>Introducci&oacute;n</h2>
+ </section>
+
+ <section data-markdown>
+  <script type="text/template"> 
+   ## Breve Introducción
+
+   * Es una herramienta *definitiva* para explorar *cómo funciona el lenguaje*.
+   * Sus algoritmos analizan textos auténticos de miles de millones de palabras (corpus de texto) para identificar instantáneamente lo que es típico en el lenguaje y lo que es un uso poco común, inusual o emergente.
+  </script>
+ </section>
+
+ <section data-markdown>
+  <script type="text/template"> 
+   ## Breve Introducción
+
+   * También está diseñado para aplicaciones de análisis de texto o minería de texto.
+   * [Información adicional](https://www.sketchengine.eu/)
+  </script>
+ </section>
+
+  <section data-background-video="https://www.sketchengine.eu/wp-content/uploads/Sketchengine.mp4" data-background-video-loop>
+    <h2 style="color: white;">Video</h2>
+  </section>
+
+
+ <section data-markdown>
+   <script type="text/template">
+    ### Reveal.js vs. Web as Corpus:
+
+    |Pros|Contras|
+    |-----|-----|
+    |+ Operatividad|+ Dificultad|
+    |+ Multilingüe|- Frecuencia|
+
+    * Aquí puede conocer más informaciones ([Sketch Engine](https://www.sketchengine.eu/))
+    </script>
+  </section>
+     
+</section>
+<!--FIN INTRODUCCIÓN -->
+
+<!--CONTENIDOS-->
+<section data-transition="zoom">
+ <section id="contenidos">
+  <h2>Contenidos</h2>
+ </section>
+
+ <section data-markdown>
+  <script type="text/template"> 
+   ## Ejemplo de código
+
+```
+CQL [lemma = “estar”]
+CQL [tag = “V.*”]
+```
+
+* Notas sobre la lingüística de corpus y estilística de corpus.
+ * *Sketch Engine*: **Aplicaciones prácticas**
+
+  </script>
+ </section>
+</section>
+<!--FIN CONTENIDOS-->
+
+<!--OBJETIVOS-->
+<section data-transition-speed="slow">
+ <section id="objetivos">
+  <h2>Objetivos</h2>
+ </section>
+
+ <section data-markdown>
+  <script type="text/template"> 
+   ## Objetivos
+
+* Familiarizar a los asistentes con la herramienta de análisis textual *Sketch Engine*
+* Presentar posibles aplicaciones en el campo de la investigación lingüística, literaria o histórica
+  </script>
+ </section>
+
+  <section data-markdown>
+  <script type="text/template"> 
+   ## Objetivos
+
+* Iniciar a los asistentes en el uso del instrumento (para el desarrollo de esta formación se utilizará **licencia temporal** del software, *30 días*, que deberá instalarse previamente en el equipo en el se vaya a seguir la formación).
+  </script>
+ </section>
+</section>
+<!--FIN OBJETIVOS-->
+
+
+<!--METODOLOGIA-->
+<section data-transition="zoom">
+ <section id="metodologia">
+  <h2>Metodología</h2>
+ </section>
+
+ <section data-markdown>
+  <script type="text/template"> 
+   ## Metodología
+
+* El seminario combina partes expositivas con momentos de aplicación práctica
+* Los asistentes podrán replicar autónomamente diversos ejercicios prácticos con los materiales que el docente proporcionará en una carpeta compartida.
+
+  </script>
+ </section>
+
+  <section data-background-color="#fff0f5">
+    <section data-markdown>
+    <script type="text/template">
+     ## Fecha y Horario
+
+  * 28 de abril, de 16:00 a 18:00 h
+  * Modalidad-Online
+    </script>
+   </section>
+  </section>
+</section>
+<!--FIN METODOLOGIA-->
+
+
+<!--PRACTICA-->
+<section data-transition="slide">
+ <section id="practica">
+  <h2>Práctica</h2>
+ </section>
+
+ <section data-markdown>
+  <script type="text/template"> 
+   ## Uso de SK:
+
+* Creación de subcorpus y diferencia sketch por subcorpus
+* Concordancia - CQL
+* Lista de palabras - Regex
+  </script>
+ </section>
+
+ <section data-background-image="https://www.sketchengine.eu/wp-content/uploads/noske_logo_332x150_bleed_transp.png" data-background-size="500px">
+   <section data-markdown>
+    <script type="text/template"> 
+  ## Ejercicios
+
+  ```
+  CQL [lemma = “estar”]
+  CQL [tag = “V.*”]
+  ```
+    </script>
+   </section>
+ </section>
+
+</section>
+
+<!--FIN PRACTICA-->
+
+
+<!--CONCLUSION -->
+<section data-transition="fade-in slide-out">
+ <section id="conclusion">
+  <h2>Conclusi&oacute;n</h2>
+ </section>
+
+ <section data-markdown>
+  <script type="text/template"> 
+## Breve conclusión de este curso
+
+* CQL (Contextual Query Language) es un lenguaje formal para representar consultas en concordancia de herramienta Sketch Engine, sobre todo, en situaciones complejas, ya que la expresión puede muy diversa y compuesta.
+* Sketch Engine, ofrece la posibilidad de analizar también el **texto marcado** (información).
+  </script>
+ </section>
+
+  <section data-markdown>
+  <script type="text/template"> 
+## Breve conclusión de este curso
+
+* Además, Sketch Engine dispone de sus propias herramientas para el etiquetado automático del texto, con lo que es capaz de preprocesar el texto puro, convirtiéndolo en texto marcado.
+  </script>
+ </section>
+</section>
+
+<!--FIN CONCLUSION -->
+
+<!--DUDAS O PREGUNTAS-->
+<section data-transition="slide-in fade-out">
+ <section id="dudas_o_preguntas">
+  <h2>Dudas o preguntas</h2>
+ </section>
+
+  <section data-background-image="https://cdn.pixabay.com/photo/2019/02/06/04/29/question-mark-3978394_1280.jpg" data-background-size="400px">
+   <section data-markdown>
+    <script type="text/template"> 
+  ## Dudas o preguntas
+
+  * Tienes dudas o preguntas sobre el uso de *Sketch Engine* en prácticas?
+   * Dudas
+   * Soluciones
+    </script>
+   </section>
+  </section>
+</section>
+
+<!--FIN DUDAs O PREGUNTAS-->
+
+
+
+      </div>
+     </div>
+
+     <script src="lib/js/head.min.js"></script>
+     <script src="js/reveal.js"></script>
+
+     <script>
+        Reveal.initialize({
+                    controls: true,
+                    progress: true,
+                    history: true,
+                    keyboard: true,
+     
+                    dependencies: [
+            		// Interpret Markdown in <section> elements
+            		{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+            		{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+                    { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                    ]
+                });
+     </script>
+
+     </body>
+
+    </html>
